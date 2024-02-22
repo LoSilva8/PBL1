@@ -27,7 +27,17 @@ class GeradorLista {
         }
     }
 }
-
+/* Metodo da aula (Inserir o import java.util.Scanner;)
+public class Main {
+    public static void main(String[] args) {
+        GeradorLista gerador = new GeradorLista();
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Digite o tamanho da lista: ");
+        int tamanho = scanner.nextInt();
+        List<Integer> lista = gerador.gerarLista(tamanho);
+        gerador.imprimir(lista);
+        scanner.close(); */
+        
 public class Main {
     public static void main(String[] args) {
         if (args.length == 0) {
