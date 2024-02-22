@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+
 class GeradorLista {
     public List<Integer> gerarLista(int tamanho) {
         List<Integer> lista = new ArrayList<>();
